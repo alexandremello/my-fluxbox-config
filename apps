@@ -1,0 +1,11 @@
+[app] (Eclipse)
+  [Workspace]	{2}
+[end]
+[app] (audacious)
+  [Workspace]	{7}
+[end]
+[app] (playlist)
+  [Workspace]	{7}
+  [Jump]	{yes}
+[end]
+
