@@ -30,7 +30,7 @@ OnDesktop Mouse3 :rootMenu
 OnDesktop Mouse4 :nextWorkspace
 OnDesktop Mouse5 :prevWorkspace
 
-ChangeWorkspace :Exec /home2/erick.zanardo/bin/changebg.sh
+ChangeWorkspace :Exec ~/.fluxbox/bin/changebg.sh
 
 #===========Controle de Areas==========
 #Movimento
@@ -76,7 +76,7 @@ Mod4 T :ToggleDecor
 
 #===========Controle Geral============
 #Terminal
-None F12 :ExecCommand ~/bin/aterm-custom.sh
+None F12 :ExecCommand ~/.fluxbox/bin/aterm-custom.sh
 #Run
 Mod4 R :ExecCommand fbrun
 #Volume
