@@ -79,9 +79,8 @@ Mod4 T :ToggleDecor
 None F12 :ExecCommand ~/.fluxbox/bin/aterm-custom.sh
 #Run
 Mod4 R :ExecCommand fbrun
-#Volume
-Mod4 Next :ExecCommand /usr/bin/aumix -v -5
-Mod4 Prior :ExecCommand /usr/bin/aumix -v +5 
+#FileManager
+Mod4 E :ExecCommand pcmanfm
 
 XF86AudioMute :Exec /usr/bin/amixer -c 1 sset PCM,0 toggle
 XF86AudioLowerVolume :Exec /usr/bin/amixer -c 1 sset PCM,0 2%- unmute
