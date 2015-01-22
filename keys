@@ -76,11 +76,13 @@ Mod4 T :ToggleDecor
 
 #===========Controle Geral============
 #Terminal
-None F12 :ExecCommand ~/.fluxbox/bin/aterm-custom.sh
+None F12 :ExecCommand gnome-terminal 
 #Run
 Mod4 R :ExecCommand fbrun
 #FileManager
 Mod4 E :ExecCommand pcmanfm
+#AppLauncher
+Control F12 :Exec ~/.fluxbox/bin/flux-launcher.sh
 
 XF86AudioMute :Exec /usr/bin/amixer -c 1 sset PCM,0 toggle
 XF86AudioLowerVolume :Exec /usr/bin/amixer -c 1 sset PCM,0 2%- unmute
