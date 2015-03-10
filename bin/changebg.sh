@@ -13,16 +13,23 @@ wallpaper[5]="$wallpaper_dir/200707045135-1783.jpg"
 wallpaper[6]="$wallpaper_dir/104050.jpg"
 wallpaper[6]="$wallpaper_dir/Hawker-Hurricane-1-1024x768.jpg"
 wallpaper[7]="$wallpaper_dir/1473917.jpg"
+wallpaper[8]="$wallpaper_dir/bomber1_1600jax.jpg"
+wallpaper[9]="$wallpaper_dir/bomber1_1600jax.jpg"
+wallpaper[10]="$wallpaper_dir/B17+flight.JPG"
+wallpaper[11]="$wallpaper_dir/spitfire_mk_iia_vs_bf_109.jpg"
+wallpaper[12]="$wallpaper_dir/fokker-eiii.jpg"
+wallpaper[13]="$wallpaper_dir/fighter5hd_1920jax.jpg"
+wallpaper[14]="$wallpaper_dir/aircrafts-airplanes_00296519.jpg"
+wallpaper[15]="$wallpaper_dir/fighter2ws_1920fx.jpg"
+wallpaper[16]="$wallpaper_dir/MesserschmittMe-262A.jpg"
 
-options[1]="-a"
-options[2]="-a"
-options[3]="-a"
-options[4]="-a"
-options[5]="-a"
-options[6]="-a"
 
-bla="${wallpaper[$ws]}"
-opt="${options[$ws]}"
+RANGE=17
+number=$RANDOM
+let "number %= $RANGE"
+
+bla="${wallpaper[$number]}"
+opt="-a"
 
 fbsetbg $opt $bla
 
